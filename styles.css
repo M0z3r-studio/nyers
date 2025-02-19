@@ -1,0 +1,283 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #474747;
+    color: #000000;
+    background-image: url(backgreund.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #1d1c1c;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.project-item{
+    color: white;
+    background-size: cover;
+    background-position: center -120px;
+    background-image: url(./0086.png);
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.gallery-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item2{
+    background-repeat: no-repeat;
+    background-image: url(PROJEKTONE2.png);
+    background-size: cover;
+    color: white;
+    background-position: center -90px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project-item3{
+    background-image: url(0086.png);
+    background-size: cover;
+    color: white;
+    background-position: center bottom;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item4{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3, .gallery-item p {
+    margin: 0;
+}
+
+.gallery-item img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.gallery-item img:hover {
+    scale: 1.05;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 5px solid #000000;  
+}
+
+.hero{
+    text-align: center;
+    color: #000000;
+}
+
+.foaldal{
+    
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #e203ff, #005eff);
+    background-size: 400% 400%; 
+    -webkit-background-clip: text; 
+    color: transparent; 
+    animation: gradientAnimation 5s ease infinite; 
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav ul li a:hover {
+    color: rgb(86, 1, 94);
+}
+
+
+
+
+.project-item4:hover{
+    scale: 1.02;
+    background-color: #000000;
+    background-size: cover;
+    color: white;
+    background-position: center 150px;
+}
+
+p{
+    color: #000000;
+    font-size: 25px;
+}
+
+
+
+/* Alap gomb stílus */
+.lilac-button {
+    background-color: #7312ce; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Animációk */
+}
+
+
+
+
+
+.home{
+    text-align: center;
+    text-align: center;
+}
+
+.button {
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8a2be2; /* Lilás háttérszín */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: -50px;
+}
+
+
+
+
+
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tab-link {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+  }
+  
+  .tab-link:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-content {
+    display: none; 
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .tab-content h2 {
+    color: #333;
+  }
+#contact{
+    display: inline-block;
+    background-color: #272626ad;
+    border: 5px solid black;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+p{
+    color: rgb(255, 255, 255);
+}
+
+.btmen{
+   
+    
+    padding: 10px 20px;
+    background-color: #8a2be2;
+    color: white;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    
+}
+
+.btmen:hover{
+    color: #ffffff;
+    background-color: rgb(161, 67, 161);
+}
+
